@@ -1,0 +1,16 @@
+SevDesk Voucher Uploader
+===
+
+Simple Python script for uploading vouchers to sevDesk using their API.
+
+Usage
+---
+
+1. To get your API key go to https://my.sevdesk.de and navigate to settings –> user –> specific user
+2. Run the program:
+    
+    `python3 sevdesk-uploader.py --token SEVDESK_TOKEN path_to_filename`
+
+3. (optionally) If you provide your token as an environmental variable you don't need to add it as an argument:
+
+    `export SEVDESK_TOKEN=yourtoken && python3 sevdesk-uploader.py path_to_filename`
